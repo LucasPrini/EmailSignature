@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+td {
+    vertical-align: top;
+    padding: 0;
+}
+.spacer-top {
+    height: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    min-height: 16px;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0 5px 0;
+    font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.title {
+    font-size: 12px;
+    color: #666666;
+    margin: 0 0 15px 0;
+    font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.contact {
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    margin: 3px 0;
+    font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.contact img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.divider {
+    width: 3px;
+    background: linear-gradient(to bottom, #8BC34A, #4CAF50);
+    height: 100px;
+}
+.company {
+    font-size: 11px;
+    color: #8BC34A;
+    text-align: right;
+    line-height: 1.4;
+    font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.website {
+    color: #8BC34A;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.footer {
+    height: 15px;
+    background: linear-gradient(90deg, #8BC34A 0%, #4CAF50 50%, #2E4057 100%);
+}
+.hashtags {
+    height: 8px;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+    <td colspan="3" class="spacer-top"></td>
+</tr>
+<tr>
+    <td colspan="3" class="hashtags"></td>
+</tr>
+<tr>
+    <td style="width: 45%; padding: 10px 15px 10px 0;">
+        <div class="name">{{DisplayName}}</div>
+        <div class="title">{{Title}}</div>
+        <div class="contact">
+            <img src="file:///C:/ProgramData/ModularDTC/EmailSignature/Assets/whatsapp-icon.png" alt="WhatsApp"> {{EmailAddress}}
+        </div>
+        <div class="contact">
+            <img src="file:///C:/ProgramData/ModularDTC/EmailSignature/Assets/phone-icon.png" alt="Phone"> {{TelephoneNumber}}
+        </div>
+    </td>
+    <td style="width: 3px; padding: 10px 5px;">
+        <div class="divider"></div>
+    </td>
+    <td style="width: 45%; padding: 10px 0 10px 15px; text-align: right;">
+        <img src="file:///C:/ProgramData/ModularDTC/EmailSignature/Assets/modular-logo.png" alt="MODULAR" style="max-width: 180px; margin-bottom: 10px;">
+        <div class="company">
+            <div>Rua Araco, 100 – Santana de Parnaíba/SP</div>
+            <div>Av. Charles Goodyear, 195 - Santana de Parnaíba/SP</div>
+            <a href="http://www.modulardtc.com" class="website">www.modulardtc.com</a>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td colspan="3">
+        <div class="footer"></div>
+    </td>
+</tr>
+</table>
+</body>
+</html>
